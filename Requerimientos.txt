@@ -1,0 +1,60 @@
+Planteamiento del problema.
+
+El "Laboratorio de Análisis Clínicos DM" realiza diferentes tipos de estudios, entre los que se encuentran los de Química Sanguínea 3 y los de Química Sanguínea 6, sin embargo tiene el problema que los equipos automatizados con los que cuenta, entregan los resultados en mmol/L, pero el laboratorio debe entregar los resultados en mg/dL.
+
+Elabore un programa que le ayude a convertir los resultados de mmol/L a mg/dL, dependiendo de los estudios que se le soliciten, considerando lo siguiente:
+
+Un estudio de QS3 consta de los siguientes elementos:
+- Glucosa.
+- Ácido úrico
+- Colesterol.
+
+Un estudio de QS6 consta de los siguientes elementos:
+- Glucosa.
+- Ácido úrico
+- Colesterol.
+- Urea.
+- Triglicéridos.
+- Creatinina.
+
+
+Los factores de conversión son los siguientes:
+
+- Glucosa 1 mmol/L = 18.02 mg/dL
+- Ácido úrico 1 mmol/L = 0.02 mg/dL
+- Colesterol 1 mmol/L = 380.66 mg/dL
+- Urea 1 mmol/L = 6.01 mg/dL
+- Trigliceridos 1 mmol/L = 87.5 mg/dL
+- Creatinina 1 µmol/L = 0.01 mg/dL
+
+
+Requerimientos funcionales.
+El programa debe:
+- Presentar un menú que permita elegir el tipo de estudio.
+- Permitir la captura de los resultados en mmol/L de cada elemento según el estudio seleccionado y regresar las equivalencias en mg/dL.
+
+Requerimientos no funcionales:
+El programa debe operar con una interfaz gráfica.
+
+El programa deberá se realizado tanto en Python como en C#, bajo el paradigma de POO, utilizando la herencia entre clases.
+
+Elabora un reporte considerando los siguientes elementos:
+
+- Portada.
+- Índice.
+- Introducción (que incluya el planteamiento del problema y los requerimientos).
+- Marco teórico.
+* POO.
+* Clase.
+* Atributos y propiedades.
+* Métodos.
+* Objeto.
+* Instancia.
+* Herencia.
+* Diagramas de clases.
+
+- Desarrollo.
+* Diagrama de clases.
+* Con la explicación del código y capturas.
+- Conclusiones.
+- Bibliografía.
